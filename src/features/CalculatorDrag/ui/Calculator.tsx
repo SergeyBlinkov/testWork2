@@ -78,8 +78,8 @@ const Calculator = () => {
             </section>
             <section
                 id={'constructorField'}
-                className={`w-[255px] p-2 h-[470px] gap-4 flex-col rounded-md ${isConstructor && 'border-2 border-dashed'} flex items-center relative`}>
-                {isConstructor ? <EmptyText /> : ''}
+                className={`w-[255px] p-2 h-[460px] gap-2 flex-col rounded-md ${isConstructor && 'border-2 border-dashed'} flex items-center relative`}>
+                <EmptyText />
             </section>
         </div>
     );

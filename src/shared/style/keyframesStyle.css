@@ -1,0 +1,16 @@
+@keyframes isGlowEffect {
+  0% {
+    border-color: #5D5FEF;
+  }
+  50% {
+    border-color: #5D5FEF;
+  }
+  100% {
+    border-color: rgba(0, 0, 0, 0.1);
+  }
+}
+.isGlow {
+  animation: isGlowEffect 0.4s linear forwards;
+}
+
+/*# sourceMappingURL=keyframesStyle.css.map */

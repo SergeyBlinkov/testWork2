@@ -1,14 +1,11 @@
-.dragging {
-}
-
 .constructorField {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   gap: 4px;
-
-  .emptyText {
-    display: none;
-  }
+}
+.constructorField .emptyText {
+  display: none;
 }
 
+/*# sourceMappingURL=Calculator.css.map */
