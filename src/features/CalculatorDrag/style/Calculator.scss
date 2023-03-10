@@ -1,0 +1,14 @@
+.dragging {
+}
+
+.constructorField {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  gap: 4px;
+
+  .emptyText {
+    display: none;
+  }
+}
+
