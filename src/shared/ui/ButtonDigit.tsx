@@ -9,6 +9,7 @@ const ButtonDigit: FC<ButtonDigitInterface> = ({ digit, specialClass }) => {
     const dispatch = useAppDispatch();
     const handleClick = (e: React.MouseEvent<HTMLButtonElement>) => {
         const target = e.target as HTMLElement;
+        console.log(digit);
         target.classList.add('isGlow');
         setTimeout(() => {
             target.classList.remove('isGlow');

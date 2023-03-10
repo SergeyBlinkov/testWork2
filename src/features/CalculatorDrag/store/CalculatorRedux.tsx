@@ -67,6 +67,8 @@ const CalculatorReduxSlice = createSlice({
                 state.currNumberOver = state.currNumberOver + ap;
                 state.currNumber = numberConvert(state.currNumber + state.currNumberOver);
                 return;
+            } else {
+                state.currNumber = state.currNumber + ap;
             }
         },
         getResult: (state) => {

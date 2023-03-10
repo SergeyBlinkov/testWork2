@@ -12,8 +12,11 @@ import { CalculateResult } from '../helper/calculateResult';
 
 
 const Calculator = () => {
-    // console.log(numberConvert('1238957897624098'));
-    const { isConstructor } = useAppSelector(state => state.calculatorState);
+
+    const {
+        isConstructor,
+    } = useAppSelector(state => state.calculatorState);
+
     useEffect(() => {
         const constructorField = document.getElementById('constructorField');
         const constructorTemplate = document.getElementById('constructorTemplate');
